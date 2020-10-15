@@ -47,10 +47,10 @@ function getPasswordViaPrompt() {
         } while (ok !== '1');
     } catch (err) {}
 
-    var oReturn = {
-        user: oIE.document.getElementById("User").value,
-        password: oIE.document.getElementById("Password").value
-    }
+   // var oReturn = {
+   //     user: oIE.document.getElementById("User").value,
+    //    password: oIE.document.getElementById("Password").value
+   // }
 
     oIE.Visible = false;
     oIE.Quit();
